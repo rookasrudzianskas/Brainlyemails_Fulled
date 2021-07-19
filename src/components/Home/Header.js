@@ -1,20 +1,17 @@
 import React from 'react';
-// import "./styles/Header.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./styles/Header.css";
 
 
 const Header = () => {
     return (
-        <main className="main" id="top">
-            <nav className="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900">
-                <div className="container pt-2"><a className="navbar-brand" href="/"> <img
-                    src="images/logo1.png" alt="..."/></a>
-                    <div className="navbar-nav ms-auto">
-                        <button className="btn btn-secondary">Live! Join now!</button>
-                    </div>
-                </div>
-            </nav>
-        </main>
+        <header className="header">
+            <div className="header__logo">
+                <img src="https://www.brainlyemails.com/assets/img/gallery/logo1.png" alt=""/>
+            </div>
+            <div className="header__button">
+                <p>Live! Join Now!</p>
+            </div>
+        </header>
     );
 };
 
